@@ -1,0 +1,42 @@
+kubectl run hello-world --image=amigoscode/kubernetes:hello-world --port=80
+
+kubectl port-forward pod/hello-world 8080:80
+
+kubectl delete pod hello-world
+
+kubectl get nodes
+
+minikube ssh
+
+minikube ip --node minikube-m02
+
+minikube logs
+
+minikube logs --node=minikube-m02 -f
+
+kubectl apply -f pod.yml
+
+cat pod.yml | kubectl.exe apply -f -
+
+kubectl delete -f pod.yml
+
+kubectl get all -A
+
+kubectl describe pod hello-world
+
+
+//exec in container
+kubectl exec hello-world -c hello-world -i -t -- sh
+
+
+kubectl port-forward deployment/hello-world 8083:80
+
+kubectl rollout history deployment
+
+kubectl logs customer-88fc6d5b7-2fk89
+
+minikube service customer-node --url
+
+kubectl exec -it order-569dc89d8-99s22 -- sh
+
+minikube tunnel

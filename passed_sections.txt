@@ -1,0 +1,9 @@
+"Kubectl" +
+"Deployments" +
+"Deployment and Rolling Updates" +
+"Services" -> "Mircoservice Communication using POD IP address" + 
+"Services" -> "Cluster IP Service In Action" + 
+"Service" -> "LoadBalancer Service" +
+"Service" -> "Exercise" +
+"Service" +
+"Labels, Selectors and Annotations" + 
