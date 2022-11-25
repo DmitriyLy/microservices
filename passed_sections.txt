@@ -8,3 +8,5 @@
 "Service" +
 "Labels, Selectors and Annotations" + 
 "Service Discovery" -> "Accessing services from Different namespaces" +
+"Service Discovery" -> "Kube-Proxy" +
+"Volumes & Storage" + 

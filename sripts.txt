@@ -40,3 +40,9 @@ minikube service customer-node --url
 kubectl exec -it order-569dc89d8-99s22 -- sh
 
 minikube tunnel
+
+kubectl exec -it emptydir-volume-6974d54d5d-pdddk -c one  -- sh
+
+kubectl delete -f .
+
+kubectl api-resources
