@@ -46,3 +46,5 @@ kubectl exec -it emptydir-volume-6974d54d5d-pdddk -c one  -- sh
 kubectl delete -f .
 
 kubectl api-resources
+
+kubectl create cm config1 --from-literal=key1=value1 --from-literal=key2=value2
