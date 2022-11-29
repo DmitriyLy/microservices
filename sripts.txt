@@ -48,3 +48,7 @@ kubectl delete -f .
 kubectl api-resources
 
 kubectl create cm config1 --from-literal=key1=value1 --from-literal=key2=value2
+
+kubectl create secret  generic mysecret --from-literal=db-password=123 --from-literal=api-token=token
+
+kubectl create secret generic mysecret --from-literal=db-password=123 --from-file=
